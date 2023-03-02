@@ -1,0 +1,57 @@
+.whatwedo {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.whatwedo .container ul {
+  display: flex;
+  margin-top: 50px;
+}
+
+.whatwedo__list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.apps {
+  font-weight: 700;
+  color: var(--primary-text-color);
+  line-height: calc(36 / 18);
+  font-size: 18px;
+  letter-spacing: 0.06em;
+}
+
+.desktop__apps__container {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+
+  bottom: 0;
+}
+
+.desktop__apps__container > p {
+  color: var(--primary-light-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 27px 0px;
+  background-color: var(--transparent-grey-color);
+}
+
+.apps1 {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--secondary-text-color);
+  line-height: calc(30 / 16);
+  margin-top: 4px;
+}
+
+.what__we__do__images {
+  display: flex;
+}
+
+.what__we__do__images > li {
+  margin-right: 30px;
+  position: relative;
+}

@@ -1,0 +1,131 @@
+.backdrop {
+  width: 100%;
+  height: 100%;
+  background-color: var(--modal-bg);
+  top: 0;
+  left: 0;
+  position: fixed;
+  opacity: 1;
+  visibility: visible;
+}
+.is__hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal__window {
+  background-color: var(--primary-light-color);
+  width: 528px;
+  height: 581px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--section-titles-color);
+  margin-bottom: 12px;
+  padding-top: 40px;
+}
+
+.input__name {
+  width: 100%;
+  height: 40px;
+  margin-top: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border var(--time) var(--time-function);
+  padding-left: 40px;
+  margin-top: 4px;
+  outline: none;
+  color: var(--primary-text-color);
+}
+.contact__form > label {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  position: relative;
+  margin-top: 10px;
+  color: var(--secondary-text-color);
+}
+.textarea {
+  padding-left: 16px;
+  padding-top: 12px;
+  width: 100%;
+  margin-top: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border var(--time) var(--time-function);
+  outline: none;
+  color: var(--primary-text-color);
+  resize: none;
+  &:hover,
+  &:focus {
+  border: 1px solid var(--accent-blue);
+}
+}
+
+.my__label {
+  display: flex;
+}
+.input__name:hover,
+.input__name:focus {
+  border: 1px solid var(--accent-blue);
+}
+
+.contact__form {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.chk__bx__svg {
+  fill: currentColor;
+  &:hover,
+  &:focus
+}
+
+.subscribe__form__class {
+  display: flex;
+}
+.email__input__element {
+  width: 358px;
+  height: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 16px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  margin-right: 12px;
+  transition: border var(--time) var(--time-function);
+  outline: none;
+}
+
+.icon__person__svg {
+  position: absolute;
+  bottom: 14px;
+  left: 15px;
+  fill: var(--primary-text-color);
+  cursor: pointer;
+  transition: color var(--time) var(--time-function);
+}
+.ourteam-__social__links__svg {
+  fill: currentColor;
+}

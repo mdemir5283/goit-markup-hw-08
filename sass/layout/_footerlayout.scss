@@ -1,0 +1,146 @@
+.footer__main__container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer {
+  background: var(--hero-color);
+  font-weight: 400;
+  color: var(--primary-light-color);
+  line-height: calc(19 / 16);
+  font-size: 14px;
+  font-family: "roboto";
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer__logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--accent-blue);
+  text-decoration: none;
+  line-height: calc(31 / 26);
+  margin-bottom: 9px;
+  display: block;
+}
+
+.footer__address__container {
+  margin-right: 70px;
+}
+.bottom__footer__address {
+  font-weight: 400;
+  color: var(--primary-light-color);
+  line-height: calc(24 / 14);
+  font-size: 14px;
+  font-style: normal;
+  font-family: "roboto";
+  transition: color var(--time) var(--time-function);
+}
+.my__checkbox__icon {
+  fill: var(--white-text-color);
+  background-color: var(--accent-blue);
+  border: 2px solid var(--accent-blue);
+  width: 16px;
+  height: 15px;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-right: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agree__to__terms__and__conditions,
+.terms__and__conditions {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.submit__bttn__container {
+  position: relative;
+}
+.subscribe__twitter__svg {
+  fill: currentColor;
+  margin-left: 30px;
+}
+.email__input__element:focus,
+.email__input__element:hover {
+  border: 1px solid var(--accent-blue);
+}
+.find__us__container {
+  margin-right: 93px;
+}
+.subscribe--twitter__svg {
+  fill: currentColor;
+  margin-left: 30px;
+}
+.input__name:hover + .icon__person__svg,
+.input__name:focus + .icon__person__svg {
+  fill: var(--accent-blue);
+}
+.chk__bx__svg:hover + .my__label > .my__checkbox__icon,
+.chk__bx__svg:focus + .my__label > .my__checkbox__icon,
+.my__input__checkbox:checked + .my__label > .my__checkbox__icon {
+  fill: var(--white-text-color);
+  background-color: var(--active-and-hover-color);
+  border: 2px solid var(--active-and-hover-color);
+}
+.visually__hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+}
+
+.checkbox__icon {
+  fill: white;
+}
+.modal__checkbox:checked + .checkbox__text > .checkbox__icon__wrapper {
+  background-color: var(--accent-blue);
+  border: none;
+}
+.checkbox__icon__wrapper {
+  width: 16px;
+  height: 15px;
+  border: 1px solid var(--primary-text-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-right: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox__text {
+  display: flex;
+}
+.bottom__footer {
+  font-weight: 400;
+  color: var(--secondary-text-color);
+  line-height: calc(24 / 14);
+  font-size: 14px;
+  font-style: normal;
+  font-family: "Roboto";
+  transition: color var(--time) var(--time-function);
+}
+.subscribe__form__class {
+  display: flex;
+}
+.contact__form {
+  padding-left: 40px;
+  padding-right: 40px;
+}

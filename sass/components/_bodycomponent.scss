@@ -1,0 +1,30 @@
+.body__section p {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+}
+
+.body__section .container ul {
+  display: flex;
+}
+
+.list__item {
+  width: 270px;
+}
+
+.list__item:not(:last-child) {
+  margin-right: 30px;
+}
+.address {
+  background: var(--hero-color);
+  font-weight: 400;
+  color: var(--primary-light-color);
+  line-height: calc(19 / 16);
+  font-size: 14px;
+  font-family: "roboto";
+}
+
+.address ul li {
+  margin-bottom: 2px;
+}

@@ -1,0 +1,34 @@
+.regular__customers__section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.customers__brand__list {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.regular__customers__link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--social-icon-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color: var(--social-icon-color);
+  transition: color var(--time) var(--time-function),
+  border var(--time) var(--time-function);
+    &:hover {
+      border: 1px solid var(--accent-blue);
+    }
+}
+
+.regular__customers__svg {
+  height: 60px;
+  width: 106px;
+  fill: currentColor;
+}
+
+

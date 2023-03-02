@@ -1,0 +1,59 @@
+.sub__heading {
+  text-align: center;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  line-height: calc(19 / 16);
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.ourteam__text {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--secondary-text-color);
+  line-height: calc(19 / 16);
+  font-size: 16px;
+  font-weight: 400;
+}
+.ourteam {
+  list-style: none;
+  background-color: var(--primary-backround-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.ourteam .container ul {
+  display: flex;
+  margin-top: 30px;
+}
+
+.ourteam__list {
+  background-color: var(--primary-light-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.ourteam__list:not(:last-child) {
+  margin-right: 30px;
+}
+.our__skills__svg {
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: var(--primary-backround-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.ourteam__social__svg {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.ourteam__social__svg > li:not(:last-child) {
+  margin-right: 10px;
+}
