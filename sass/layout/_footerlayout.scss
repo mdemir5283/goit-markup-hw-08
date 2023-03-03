@@ -1,7 +1,7 @@
-.footer__main__container {
-  display: flex;
-  align-items: baseline;
-}
+// .footer__main__container {
+//   display: flex;
+//   align-items: baseline;
+// }
 
 .footer {
   background: var(--hero-color);
@@ -25,9 +25,9 @@
   display: block;
 }
 
-.footer__address__container {
-  margin-right: 70px;
-}
+// .footer__address__container {
+//   margin-right: 70px;
+// }
 .bottom__footer__address {
   font-weight: 400;
   color: var(--primary-light-color);
@@ -61,9 +61,9 @@
   text-decoration: none;
 }
 
-.submit__bttn__container {
-  position: relative;
-}
+// .submit__bttn__container {
+//   position: relative;
+// }
 .subscribe__twitter__svg {
   fill: currentColor;
   margin-left: 30px;
@@ -72,9 +72,9 @@
 .email__input__element:hover {
   border: 1px solid var(--accent-blue);
 }
-.find__us__container {
-  margin-right: 93px;
-}
+// .find__us__container {
+//   margin-right: 93px;
+// }
 .subscribe--twitter__svg {
   fill: currentColor;
   margin-left: 30px;
@@ -143,4 +143,16 @@
 .contact__form {
   padding-left: 40px;
   padding-right: 40px;
+}
+.address {
+  background: var(--hero-color);
+  font-weight: 400;
+  color: var(--primary-light-color);
+  line-height: calc(19 / 16);
+  font-size: 14px;
+  font-family: "roboto";
+}
+
+.address ul li {
+  margin-bottom: 2px;
 }

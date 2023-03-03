@@ -3,10 +3,10 @@
   padding-top: 94px;
 }
 
-.whatwedo .container ul {
-  display: flex;
-  margin-top: 50px;
-}
+// .whatwedo .container ul {
+//   display: flex;
+//   margin-top: 50px;
+// }
 
 .whatwedo__list:not(:last-child) {
   margin-right: 30px;
@@ -20,24 +20,24 @@
   letter-spacing: 0.06em;
 }
 
-.desktop__apps__container {
-  position: absolute;
-  width: 100%;
-  height: 70px;
+// .desktop__apps__container {
+//   position: absolute;
+//   width: 100%;
+//   height: 70px;
 
-  bottom: 0;
-}
+//   bottom: 0;
+// }
 
-.desktop__apps__container > p {
-  color: var(--primary-light-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
-  padding: 27px 0px;
-  background-color: var(--transparent-grey-color);
-}
+// .desktop__apps__container > p {
+//   color: var(--primary-light-color);
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   text-align: center;
+//   letter-spacing: 0.03em;
+//   padding: 27px 0px;
+//   background-color: var(--transparent-grey-color);
+// }
 
 .apps1 {
   font-weight: 400;

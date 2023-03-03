@@ -75,8 +75,8 @@
   resize: none;
   &:hover,
   &:focus {
-  border: 1px solid var(--accent-blue);
-}
+    border: 1px solid var(--accent-blue);
+  }
 }
 
 .my__label {
@@ -92,9 +92,10 @@
   padding-right: 40px;
 }
 .chk__bx__svg {
-  fill: currentColor;
   &:hover,
-  &:focus
+  &:focus {
+    fill: currentColor;
+  }
 }
 
 .subscribe__form__class {
