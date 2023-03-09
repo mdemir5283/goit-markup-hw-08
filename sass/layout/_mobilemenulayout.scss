@@ -1,0 +1,115 @@
+.menu-toggle {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  min-height: 40px;
+  min-width: 40px;
+
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+
+  &:hover,
+  &:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 200vw;
+  background-color: var(--primary-light-color);
+  transform: translateX(100%);
+  transition: transform var(--time) var(--time-function);
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: var(--primary-text-color);
+}
+.mobile-menu {
+  padding-top: 48px;
+  padding-left: 40px;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+.mobile-menu__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+.mobile-menu__item .mobile-menu__link--active {
+  color: var(--accent-blue);
+}
+
+.mobile-menu__link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  &:hover,
+  &focus {
+    color: var(--accent-blue);
+  }
+}
+.mobile-menu-contacts {
+  padding-left: 40px;
+  margin-top: 150px;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+.mobile-menu-contacts__item:first-child {
+  margin-bottom: 32px;
+}
+.mobile-menu-contacts__link--phone {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--accent-blue);
+  text-decoration: none;
+}
+.mobile-menu-contacts__link--email {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.mobile-menu-media {
+  display: flex;
+  padding-left: 40px;
+  margin-top: 64px;
+}
+.mobile-menu-media__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--accent-blue);
+
+  & > span {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: var(--secondary-text-color);
+  }
+}

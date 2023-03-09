@@ -36,11 +36,11 @@
   color: var(--social-icon-color);
   border-radius: 50%;
   transition: color var(--time) var(--time-function),
-  background-color var(--time) var(--time-function);   
-   &:hover {
-  color: var(--primary-light-color);
-  background-color: var(--accent-blue);
-}
+    background-color var(--time) var(--time-function);
+  &:hover {
+    color: var(--primary-light-color);
+    background-color: var(--accent-blue);
+  }
 }
 
 .ourteam__social__links__svg {
@@ -63,6 +63,9 @@
   display: flex;
   align-items: center;
   transition: color var(--time), var(--time-function);
+  @media screen and (min-width: 768px) {
+    padding: 0;
+  }
 }
 .social__links {
   display: flex;

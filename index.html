@@ -16,7 +16,7 @@
 
    <header>
     <div class="container header__container">
-      <a class="logo" href="index.html">WebStudio</a>
+      <a class="logo" href="index.html">Web<span class="logo2">Studio</span></a>
       <nav class="header__navbar">
         <ul>
           <li>
@@ -50,13 +50,34 @@
             </svg>+38 096 111 11 11</a></svg>
         </li>
       </ul>
+      <button
+      class="menu-toggle js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg
+        width="24"
+        height="24"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+          clip-rule="evenodd"
+        ></path>
+      </svg>
     </div>
   </header>
   <!--Main content section-->
   <main>
     <section class="hero__section">
-      <div class="container">
-        <h1>EFFECTIVE SOLUTIONS FOR <br> YOUR BUSINESS</h1>
+      <div class="hero__section__container container">
+        <h1 class="hero-container__title effective-solution-title">
+        EFFECTIVE SOLUTIONS FOR <br>
+        YOUR BUSINESS
+      </h1>
         <button type="button" data-modal-open class="btn__service">Request our service</button>
       </div>
     </section>
@@ -149,9 +170,10 @@
 
     <section class="ourteam">
       <div class="container">
-        <h2>Our Team</h2>
+        <h2 class="our-team-section__title">Our Team</h2>
+        
 
-        <ul>
+        <ul class="team-members">
           <li class="ourteam__list">
             <img src="images/team-1.jpg" alt="Christopher Walker " width="270" />
             <h3 class="sub__heading">Christopher Walker</h3>
@@ -483,9 +505,75 @@
       </form>
     </div>
   </div>
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu">
+      <svg
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+          clip-rule="evenodd"
+        ></path>
+      </svg>
+    </button>
 
+    <ul class="mobile-menu">
+      <li class="mobile-menu__item">
+        <a
+          href="index.html"
+          class="mobile-menu__link mobile-menu__link--active"
+          >Studio</a
+        >
+      </li>
+      <li class="mobile-menu__item">
+        <a href="portfolio.html" class="mobile-menu__link">Portfolio</a>
+      </li>
+      <li class="mobile-menu__item">
+        <a href="index.html" class="mobile-menu__link">Contacts</a>
+      </li>
+    </ul>
+    <ul class="mobile-menu-contacts">
+      <li class="mobile-menu-contacts__item">
+        <a
+          href="tel:12127724150"
+          class="mobile-menu-contacts__link mobile-menu-contacts__link--phone"
+          >+1 212-772-4150</a
+        >
+      </li>
+      <li class="mobile-menu-contacts__item">
+        <a
+          href="mailto:info@devstudio.com"
+          class="mobile-menu-contacts__link mobile-menu-contacts__link--email"
+          >info@devstudio.com</a
+        >
+      </li>
+    </ul>
+    <ul class="mobile-menu-media">
+      <li class="mobile-menu-media__item">
+        <a href="" class="mobile-menu-media__link"
+          >Instagram <span>|</span>
+        </a>
+      </li>
+      <li class="mobile-menu-media__item">
+        <a href="" class="mobile-menu-media__link">Twitter <span>|</span> </a>
+      </li>
+      <li class="mobile-menu-media__item">
+        <a href="" class="mobile-menu-media__link">
+          Facebook <span>|</span>
+        </a>
+      </li>
+      <li class="mobile-menu-media__item">
+        <a href="" class="mobile-menu-media__link">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
   <script src="./js/modal.js"></script>
- 
+  <script src="./js/mobilemenu.js"></script>
 </body>
 
 </html>

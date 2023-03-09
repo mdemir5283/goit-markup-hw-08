@@ -6,17 +6,25 @@
     url(../images/hero-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 118px;
+  padding-bottom: 118px;
   background-position: center;
-  color: var(--primary-light-color);
+}
+.hero__section__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 200px 0;
 }
-// .hero__section .container {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-// }
+.hero-container__title {
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 30px;
+  padding-top: 118px;
+  padding-bottom: 118px;
+}

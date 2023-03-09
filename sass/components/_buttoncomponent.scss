@@ -5,6 +5,8 @@
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
+
+  text-align: center;
   color: var(--primary-light-color);
   cursor: pointer;
   border-radius: 4px;
@@ -153,4 +155,13 @@
   align-items: center;
   justify-content: space-evenly;
   padding: 10px 28px 10px 48px;
+}
+.menu-toggle {
+  min-height: 40px;
+  min-width: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
 }

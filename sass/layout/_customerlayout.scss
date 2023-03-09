@@ -1,16 +1,27 @@
 .regular__customers__section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .customers__brand__list {
   margin-top: 50px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: wrap;
+  @media screen and (min-width: 480px) {
+    justify-content: space-between;
+  }
+}
+
+.customers__brand__list > li {
+  margin-bottom: 30px;
+  @media screen and (min-width: 738px) {
+    margin-bottom: 30px;
+  }
 }
 
 .regular__customers__link {
-  width: 170px;
+  width: 200px;
   height: 92px;
   border: 1px solid var(--social-icon-color);
   display: flex;
@@ -19,10 +30,10 @@
   border-radius: 4px;
   color: var(--social-icon-color);
   transition: color var(--time) var(--time-function),
-  border var(--time) var(--time-function);
-    &:hover {
-      border: 1px solid var(--accent-blue);
-    }
+    border var(--time) var(--time-function);
+  &:hover {
+    border: 1px solid var(--accent-blue);
+  }
 }
 
 .regular__customers__svg {
@@ -30,5 +41,22 @@
   width: 106px;
   fill: currentColor;
 }
-
-
+.our-team-section__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team-section__title {
+  margin-bottom: 50px;
+}
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+  flex-wrap: wrap;
+  @media screen and (min-width: 768px) {
+    justify-content: space-around;
+  }
+}

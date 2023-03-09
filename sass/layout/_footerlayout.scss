@@ -5,15 +5,16 @@
 
 .footer {
   background: var(--hero-color);
-  font-weight: 400;
-  color: var(--primary-light-color);
-  line-height: calc(19 / 16);
-  font-size: 14px;
-  font-family: "roboto";
-  display: block;
+  // font-weight: 400;
+  // color: var(--primary-light-color);
+  // line-height: calc(19 / 16);
+  // font-size: 14px;
+  // font-family: "roboto";
+  // display: block;
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer__logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -23,6 +24,11 @@
   line-height: calc(31 / 26);
   margin-bottom: 9px;
   display: block;
+  letter-spacing: 0.03em;
+  padding-bottom: 9px;
+  margin-right: 0px;
+  text-align: center;
+  padding-top: 0px;
 }
 
 // .footer__address__container {
@@ -72,9 +78,9 @@
 .email__input__element:hover {
   border: 1px solid var(--accent-blue);
 }
-// .find__us__container {
-//   margin-right: 93px;
-// }
+.find__us__container {
+  margin-right: 93px;
+}
 .subscribe--twitter__svg {
   fill: currentColor;
   margin-left: 30px;
@@ -129,14 +135,17 @@
   display: flex;
 }
 .bottom__footer {
-  font-weight: 400;
+  font-weight: 500;
   color: var(--secondary-text-color);
   line-height: calc(24 / 14);
   font-size: 14px;
   font-style: normal;
   font-family: "Roboto";
   transition: color var(--time) var(--time-function);
+  text-decoration: none;
+  letter-spacing: 0.02em;
 }
+
 .subscribe__form__class {
   display: flex;
 }
@@ -155,4 +164,26 @@
 
 .address ul li {
   margin-bottom: 2px;
+}
+.find__us__container {
+  margin-right: 0px;
+  text-align: center;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.container footer__main__container {
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+.footer__main__container {
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+.footer__address__container {
+  text-align: center;
 }
